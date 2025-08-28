@@ -1,6 +1,3 @@
-
-// copy-button
-
 let heartCount = 0;
 
 let heartButtons = document.querySelectorAll(".heart-button");
@@ -14,20 +11,20 @@ for (let i = 0; i < heartButtons.length; i++) {
 
 
 
-let callButtons = document.querySelectorAll(".call-button")
+let callButtons = document.querySelectorAll(".call-button");
 
 
 for (let i = 0; i< callButtons.length; i++){
     callButtons[i].addEventListener("click", function(){
 
-        let coin = Number(document.getElementsByClassName('default-coin')[0].innerText)
+        let coin = Number(document.getElementById('default-coin').innerText);
         if(coin >= 20){
             let card = callButtons[i].parentElement.parentElement;
             let title = card.querySelector(".card-subtitle").innerText;
             let number = card.querySelector(".contact-num").innerText;
             let mainTitle = card.querySelector(".card-title").innerText;
             alert(`📞Calling ${title} ${number}`);
-            document.getElementsByClassName('default-coin')[0].innerText = coin - 20;
+            document.getElementById('default-coin').innerText = coin - 20;
 
 
             
@@ -98,7 +95,7 @@ for (let i = 0; i< callButtons.length; i++){
             callData.style.padding = "16px"
             callData.style.borderRadius = "8px"
             callData.style.marginTop = "8px"
-            callData.appendChild(callDataDiv)
+            
 
 
 
@@ -106,9 +103,41 @@ for (let i = 0; i< callButtons.length; i++){
             
         }
         else{
-          alert('Not enough coins')
+          alert('❌ আপনার পর্যাপ্ত কয়েন নেই, কল করতে কমপক্ষে ২০ কয়েন লাগবে।')
         }
+
+
+
+
+
     })
+}
+
+let clear = document.getElementById('clear-btn')
+
+clear.addEventListener('click', function(){
+  document.getElementById('Call-data-container').innerHTML = "";
+
+})
+
+
+
+let copyButtons = document.querySelectorAll(".copy-button");
+let copyCounter = 0;
+for (let i = 0; i< copyButtons.length; i++){
+  copyButtons[i].addEventListener("click", function(){
+    let card = copyButtons[i].parentElement.parentElement;
+    let number = card.querySelector(".contact-num").innerText;
+
+    navigator.clipboard.writeText(number);
+    copyCounter++;
+
+    document.getElementById('copy-number').innerText = copyCounter;
+
+   
+
+    alert(`নাম্বার কপি হয়েছে ${number}`)
+  })
 }
 
 
