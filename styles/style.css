@@ -192,10 +192,13 @@
 
 
 /* Laptop/Desktop Responsive */
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
     *{
         margin: 0;
         padding: 0;
+    }
+    .nav-left-text{
+        margin-left: 10px;
     }
     .nav{
         padding: 30px;
