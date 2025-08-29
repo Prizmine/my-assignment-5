@@ -124,6 +124,7 @@
     .main-banner-logo{
         width: 50px !important;
         height: 50px !important;
+        margin-top: 10px !important;
     }
 
     .banner-heading{
@@ -157,6 +158,10 @@
     }
     .card-main-right{
         justify-self: center !important;
+    }
+
+    .main-logo{
+        padding-top: 21px !important;
     }
 
     
@@ -193,6 +198,9 @@
     .card-main-right{
         justify-self: center !important;
     }
+    .main-logo{
+        padding-top: 21px !important;
+    }
 }
 
 
@@ -204,6 +212,12 @@
     }
     .nav-left-text{
         margin-left: 10px;
+    }
+    .card-title{
+        margin-top: 10px;
+    }
+    .main-logo-container{
+        padding-top: 28.9px;
     }
     .nav{
         padding: 30px;
@@ -354,6 +368,8 @@
         margin: 0;
         padding: 0;
     }
+    
+
     .nav-left-text{
         margin-left: 10px;
     }
