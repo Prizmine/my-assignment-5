@@ -59,138 +59,139 @@
 
 
 
-@media (max-width: 640px) {
+@media (max-width: 641px) {
 
     .nav{
-        width: 100vw;
-        height:100%;
+        width: 100vw !important;
+        height:100% !important;
     }
 
     .nav-img{
-        width: 25px;
-        height: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
     .nav-left-text{
-        font-size: 10px;
+        font-size: 10px !important;
 
     }
 
     .nav-left {
-        padding-left: 10px;
+        padding-left: 10px !important;
   }
     .nav-right{
-        padding-right: 10px;
-        gap: 5px;
-        margin-left: 10px;
-        display: flex;
-        justify-content: end;
-        flex-wrap: wrap;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        padding-right: 10px !important;
+        gap: 5px !important;
+        margin-left: 10px !important;
+        display: flex !important;
+        justify-content: end !important;
+        flex-wrap: wrap !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
     }
 
     .heart-count{
-        width: 45px;
-        height: 25px;
-        padding: 2px;
-        font-size: 13px;
-        gap: 4px
+        width: 45px !important;
+        height: 25px !important;
+        padding: 2px !important;
+        font-size: 13px !important;
+        gap: 4px !important;
     }
     .heart-png{
-        width: 15px;
-        height: 15px;
+        width: 15px !important;
+        height: 15px !important;
     }
     .coin-counter{
-        width: 45px;
-        height: 25px;
-        font-size: 13px;
-        gap: 4px;
+        width: 45px !important;
+        height: 25px !important;
+        font-size: 13px !important;
+        gap: 4px !important;
     }
     .coin-png{
-        width: 15px;
-        height: 15px;
+        width: 15px !important;
+        height: 15px !important;
     }
     .copy-counter{
-        width: 45px;
-        height: 25px;
-        padding: 2px;
-        font-size: 10px;
-        gap: 4px
+        width: 45px !important;
+        height: 25px !important;
+        padding: 2px !important;
+        font-size: 10px !important;
+        gap: 4px !important;
     }
     .main-banner{
-        height: 200px;
+        height: 200px !important;
     }
 
     .main-banner-logo{
-        width: 50px;
-        height: 50px;
+        width: 50px !important;
+        height: 50px !important;
     }
 
     .banner-heading{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .banner-dis{
-        font-size: 10px;
+        font-size: 10px !important;
     }
     .card-main-right{
-        margin-top: 30px;
-        font-size: 15px;
-        width: 90vw;
+        margin-top: 30px !important;
+        font-size: 15px !important;
+        width: 90vw !important;
     }
 
     .card-main-secrion{
-         grid-template-columns: repeat(1, 90vw);
-         justify-content: center;
+         grid-template-columns: repeat(1, 90vw) !important;
+         justify-content: center !important;
         
     }
     .main-section{
-        display: block;
-        width: 100vw;
-        justify-self: center;
+        display: block !important;
+        width: 100vw !important;
+        justify-self: center !important;
         
     }
     .card-main-buttons button{
-        width: 183px;
-        justify-self: center;
+        width: 183px !important;
+        justify-self: center !important;
         
         
     }
-    /* .card{
-        justify-self: center;
-    } */
-
-    /* .card-main-buttons{
-        width: 100%;
-    } */
-
-    
+    .card-main-right{
+        justify-self: center !important;
+    }
 
     
 
 }
 
 
-@media (max-width: 414px) {
+@media (max-width: 450px) {
     .card-main-buttons button{
-        width: 110px;
-        justify-self: center;
+        width: 110px !important;
+        justify-self: center !important;
         
     }
+    .card-main-section {
+    grid-template-columns: 1fr !important;
+  }
     .card-main-buttons{
-        gap: 30px;
-        justify-content: center;
+        gap: 30px !important;
+        justify-content: center !important;
     }
     .card{
-        width: 97vw;
-        justify-self: center;
+        width: 97vw !important;
+        justify-self: center !important;
     }
 
     .card-main-right-inside{
-        max-width: 250px;
-        font-size: 15px;
+        max-width: 250px !important;
+        font-size: 15px !important;
     }
     .last-button{
-        width: 100px;
+        width: 100px !important;
+    }
+
+    .card-main-right{
+        justify-self: center !important;
     }
 }
 
