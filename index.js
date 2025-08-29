@@ -88,7 +88,7 @@ for (let i = 0; i< callButtons.length; i++){
 
             let callData = document.getElementById('Call-data-container').appendChild(callDataDiv);
             callData.style.height = "86px"
-            callData.style.maxWidth = "352px";
+            callData.style.maxWidth = "90%";
             callData.style.display = "flex";
             callData.style.backgroundColor = "#F2F2F2";
             callData.style.margin = "0 auto"
