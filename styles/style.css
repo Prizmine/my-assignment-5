@@ -192,7 +192,7 @@
 
 
 /* Laptop/Desktop Responsive */
-@media (max-width: 1280px) {
+@media (max-width: 1500px) {
     *{
         margin: 0;
         padding: 0;
