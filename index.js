@@ -139,5 +139,3 @@ for (let i = 0; i< copyButtons.length; i++){
     alert(`নাম্বার কপি হয়েছে ${number}`)
   })
 }
-
-
